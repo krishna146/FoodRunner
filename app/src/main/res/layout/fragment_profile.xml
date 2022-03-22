@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".fragment.ProfileFragment">
+
+
+    <ImageView
+        android:id="@+id/imgUserProfile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:src="@drawable/person" />
+
+    <TextView
+        android:id="@+id/txtUserName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/white"
+        android:layout_below="@id/imgUserProfile"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="center"
+        android:text="kalpesh kumar"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/txtUserMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:layout_below="@id/txtUserName"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="center"
+        android:text="+91-7782017779"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/txtUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:layout_below="@id/txtUserMobileNumber"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="center"
+        android:text="kalpeshkumarjms12@gmail.com"
+        android:textAlignment="center"
+        android:maxLines="1"
+        android:textSize="20sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/txtUserAddress"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:layout_below="@id/txtUserEmail"
+        android:layout_marginHorizontal="10dp"
+        android:gravity="center"
+        android:text="mirganj"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
+
+
+</RelativeLayout>

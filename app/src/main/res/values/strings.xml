@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">FoodRunner</string>
+    <string name="welcomText">FoodRunner</string>
+    <string name="mobileNumber">Mobile Number (10 digits)</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgetPassword">Forget Password</string>
+    <string name="signUp">Don\'t have an account? Sign up now</string>
+    <string name="name">Name (Min. 3 characters)</string>
+    <string name="email">Email Address</string>
+    <string name="deliveryAddress">Delivery Address</string>
+    <string name="passwordMin4">Password (Min. 4 Characters)</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="Register">Register</string>
+    <string name="instruction">Enter your registered mobile number and email below:</string>
+    <string name="next">Next</string>
+    <string name="otp">OTP(4 Characters)</string>
+    <string name="new_password">New Password(Min 4 characters)</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="submit">Submit</string>
+    <string name="preferences_file_name">Login Preferences</string>
+    <string name="home">Home</string>
+    <string name="myprofile">Myprofile</string>
+    <string name="favourite_restaurants">Favourite Restaurants</string>
+    <string name="order_history">Order History</string>
+    <string name="faqs">FAQs</string>
+    <string name="log_out">Log Out</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+</resources>
